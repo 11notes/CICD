@@ -1,0 +1,18 @@
+{
+  "go": [
+    "docker-adguard",
+    "docker-node",
+    "docker-netbird",
+    "docker-distroless",
+    "docker-configarr",
+    "docker-ente"
+  ],
+  "python": [
+    "docker-medikeep",
+    "docker-sabnzbd"
+  ],
+  "php": [],
+  "dotnet8": [],
+  "dotnet9": [],
+  "dotnet10": []
+}
