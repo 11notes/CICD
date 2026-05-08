@@ -1,7 +1,7 @@
 {
   "go": "1.26.2",
   "openssl": "4.0.0",
-  "openssl_lts": "3.5.4",
+  "openssl_lts": "3.5.6",
   "python": "3.14.4",
   "dotnet8": "8.0.420",
   "dotnet9": "9.0.313",
