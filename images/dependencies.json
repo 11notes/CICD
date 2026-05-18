@@ -14,5 +14,7 @@
   "php": [],
   "dotnet8": [],
   "dotnet9": [],
-  "dotnet10": []
+  "dotnet10": [],
+  "node": [],
+  "node_stable": []
 }
