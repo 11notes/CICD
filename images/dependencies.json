@@ -16,5 +16,8 @@
   "dotnet9": [],
   "dotnet10": [],
   "node": [],
-  "node_stable": []
+  "node_stable": [],
+  "distroless:ds": [
+    "docker-php"
+  ]
 }
