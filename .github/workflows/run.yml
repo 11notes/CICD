@@ -7,7 +7,15 @@ env:
   JSON_FILE: ./semver/latest.json
 
 jobs:
+  # ╔═════════════════════════════════════════════════════╗
+  # ║                                                     ║
+  # ║                                                     ║
+  # ║            CHECK FOR AVAILABLE UPDATES              ║
+  # ║                                                     ║
+  # ║                                                     ║
+  # ╚═════════════════════════════════════════════════════╝
   update:
+    if: ${{ github.event.inputs.job == 'update' }}
     runs-on: ubuntu-latest
 
     permissions:
