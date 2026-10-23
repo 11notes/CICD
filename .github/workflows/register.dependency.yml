@@ -1,4 +1,4 @@
-name: json.dependencies
+name: register dependencies
 
 on:
   workflow_dispatch:

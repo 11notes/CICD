@@ -1,5 +1,5 @@
 name: run
-run-name: run ${{ inputs.job }}
+run-name: run (${{ inputs.job }})
 
 on:
   workflow_dispatch:
