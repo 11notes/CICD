@@ -41,7 +41,11 @@ jobs:
 
             (async()=>{
               try{
-                const dependencies = JSON.parse(Buffer.from('${{ github.event.inputs.dependencies }}'.toLowerCase(), 'base64').toString('ascii'));
+                try{
+                  const dependencies = JSON.parse(Buffer.from('${{ github.event.inputs.dependencies }}', 'base64').toString('ascii').toLowerCase());
+                }catch(e){
+                  core.warning(`'${{ github.event.inputs.dependencies }}', could not be parsed`)
+                }
                 const repository = '${{ github.event.inputs.repository }}'.toLowerCase();
                 const file = '${{ env.JSON_FILE }}';
                 const path = resolve(file);
