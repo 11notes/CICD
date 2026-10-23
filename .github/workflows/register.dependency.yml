@@ -48,7 +48,7 @@ jobs:
                 const json = JSON.parse(readFileSync(path).toString());
 
                 // print
-                  core.info(inspect({dependencies:dependencies, repository:repository, json:json}, {showHidden:false, depth:null, colors:true}));
+                  core.info(inspect({inputs:{dependencies:'${{ github.event.inputs.dependencies }}', repository:'${{ github.event.inputs.repository }}'},dependencies:dependencies, repository:repository, json:json}, {showHidden:false, depth:null, colors:true}));
 
                 for(const dependency of dependencies){
                   if(!Array.isArray(json[dependency])){
