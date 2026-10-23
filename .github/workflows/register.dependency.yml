@@ -37,10 +37,11 @@ jobs:
             const { readFileSync, writeFileSync } = require('node:fs');
             const { resolve } = require("node:path");
             const { inspect } = require('node:util');
+            const { Buffer } = require('node:buffer');
 
             (async()=>{
               try{
-                const dependencies = JSON.parse('${{ github.event.inputs.dependencies }}'.toLowerCase());
+                const dependencies = JSON.parse(Buffer.from('${{ github.event.inputs.dependencies }}'.toLowerCase(), 'base64').toString('ascii'));
                 const repository = '${{ github.event.inputs.repository }}'.toLowerCase();
                 const file = '${{ env.JSON_FILE }}';
                 const path = resolve(file);
