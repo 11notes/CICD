@@ -12,11 +12,7 @@
     "docker-sabnzbd"
   ],
   "php": [],
-  "dotnet8": [],
-  "dotnet9": [],
-  "dotnet10": [],
   "node": [],
-  "node_stable": [],
   "distroless:ds": [
     "docker-php"
   ]
