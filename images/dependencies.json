@@ -19,9 +19,13 @@
   ],
   "distroless:localhealth": [
     "docker-qbittorrent",
-    "docker-vernemq"
+    "docker-vernemq",
+    "docker-php-fpm"
   ],
   "alpine": [
     "docker-vernemq"
+  ],
+  "distroless:tini": [
+    "docker-php-fpm"
   ]
 }
