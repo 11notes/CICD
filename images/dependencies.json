@@ -18,6 +18,10 @@
     "docker-php"
   ],
   "distroless:localhealth": [
-    "docker-qbittorrent"
+    "docker-qbittorrent",
+    "docker-vernemq"
+  ],
+  "alpine": [
+    "docker-vernemq"
   ]
 }
