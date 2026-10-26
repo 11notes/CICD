@@ -16,6 +16,6 @@
   "njs": "1.0.2",
   "libxml2": "2.15.4",
   "libxslt": "1.1.45",
-  "libtorrent":"2.1.1",
-  "boost":"1.91.0"
+  "libtorrent": "2.1.2",
+  "boost": "1.92.0"
 }
