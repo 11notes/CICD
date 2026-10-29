@@ -21,7 +21,8 @@
   "distroless:localhealth": [
     "docker-qbittorrent",
     "docker-vernemq",
-    "docker-php-fpm"
+    "docker-php-fpm",
+    "docker-netbird"
   ],
   "alpine": [
     "docker-vernemq"
