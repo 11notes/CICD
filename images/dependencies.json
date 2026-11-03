@@ -25,7 +25,8 @@
     "docker-netbird"
   ],
   "alpine": [
-    "docker-vernemq"
+    "docker-vernemq",
+    "docker-python"
   ],
   "distroless:tini": [
     "docker-php-fpm"
