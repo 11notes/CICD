@@ -7,11 +7,13 @@
     "docker-configarr",
     "docker-ente",
     "docker-qbittorrent",
-    "docker-vernemq"
+    "docker-vernemq",
+    "docker-homeassistant"
   ],
   "python": [
     "docker-medikeep",
-    "docker-sabnzbd"
+    "docker-sabnzbd",
+    "docker-homeassistant"
   ],
   "php": [],
   "node": [],
@@ -22,7 +24,8 @@
     "docker-qbittorrent",
     "docker-vernemq",
     "docker-php-fpm",
-    "docker-netbird"
+    "docker-netbird",
+    "docker-homeassistant"
   ],
   "alpine": [
     "docker-vernemq",
