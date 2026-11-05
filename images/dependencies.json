@@ -13,7 +13,8 @@
   "python": [
     "docker-medikeep",
     "docker-sabnzbd",
-    "docker-homeassistant"
+    "docker-homeassistant",
+    "docker-netbox"
   ],
   "php": [],
   "node": [],
@@ -25,11 +26,13 @@
     "docker-vernemq",
     "docker-php-fpm",
     "docker-netbird",
-    "docker-homeassistant"
+    "docker-homeassistant",
+    "docker-netbox"
   ],
   "alpine": [
     "docker-vernemq",
-    "docker-python"
+    "docker-python",
+    "docker-netbox"
   ],
   "distroless:tini": [
     "docker-php-fpm"
