@@ -8,7 +8,8 @@
     "docker-ente",
     "docker-qbittorrent",
     "docker-vernemq",
-    "docker-homeassistant"
+    "docker-homeassistant",
+    "docker-unbound"
   ],
   "python": [
     "docker-medikeep",
