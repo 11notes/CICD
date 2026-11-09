@@ -9,7 +9,8 @@
     "docker-qbittorrent",
     "docker-vernemq",
     "docker-homeassistant",
-    "docker-unbound"
+    "docker-unbound",
+    "docker-prometheus"
   ],
   "python": [
     "docker-medikeep",
@@ -28,7 +29,8 @@
     "docker-php-fpm",
     "docker-netbird",
     "docker-homeassistant",
-    "docker-netbox"
+    "docker-netbox",
+    "docker-prometheus"
   ],
   "alpine": [
     "docker-vernemq",
