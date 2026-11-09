@@ -21,7 +21,8 @@
   "php": [],
   "node": [],
   "distroless:ds": [
-    "docker-php"
+    "docker-php",
+    "docker-joplin"
   ],
   "distroless:localhealth": [
     "docker-qbittorrent",
@@ -30,7 +31,8 @@
     "docker-netbird",
     "docker-homeassistant",
     "docker-netbox",
-    "docker-prometheus"
+    "docker-prometheus",
+    "docker-joplin"
   ],
   "alpine": [
     "docker-vernemq",
@@ -38,6 +40,7 @@
     "docker-netbox"
   ],
   "distroless:tini": [
-    "docker-php-fpm"
+    "docker-php-fpm",
+    "docker-joplin"
   ]
 }
