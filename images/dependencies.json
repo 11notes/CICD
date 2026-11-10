@@ -11,7 +11,8 @@
     "docker-homeassistant",
     "docker-unbound",
     "docker-prometheus",
-    "docker-tinyauth"
+    "docker-tinyauth",
+    "docker-syncthing"
   ],
   "python": [
     "docker-medikeep",
@@ -34,7 +35,8 @@
     "docker-netbox",
     "docker-prometheus",
     "docker-joplin",
-    "docker-tinyauth"
+    "docker-tinyauth",
+    "docker-syncthing"
   ],
   "alpine": [
     "docker-vernemq",
