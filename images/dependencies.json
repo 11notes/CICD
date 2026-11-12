@@ -24,7 +24,8 @@
   "node": [],
   "distroless:ds": [
     "docker-php",
-    "docker-joplin"
+    "docker-joplin",
+    "docker-util"
   ],
   "distroless:localhealth": [
     "docker-qbittorrent",
