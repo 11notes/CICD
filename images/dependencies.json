@@ -36,7 +36,8 @@
     "docker-prometheus",
     "docker-joplin",
     "docker-tinyauth",
-    "docker-syncthing"
+    "docker-syncthing",
+    "docker-ente"
   ],
   "alpine": [
     "docker-vernemq",
