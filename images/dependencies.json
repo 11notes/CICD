@@ -45,6 +45,7 @@
   ],
   "distroless:tini": [
     "docker-php-fpm",
-    "docker-joplin"
+    "docker-joplin",
+    "docker-alpine"
   ]
 }
