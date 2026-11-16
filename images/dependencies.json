@@ -13,7 +13,8 @@
     "docker-prometheus",
     "docker-tinyauth",
     "docker-syncthing",
-    "docker-memos"
+    "docker-memos",
+    "docker-lego"
   ],
   "python": [
     "docker-medikeep",
