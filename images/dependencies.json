@@ -12,7 +12,8 @@
     "docker-unbound",
     "docker-prometheus",
     "docker-tinyauth",
-    "docker-syncthing"
+    "docker-syncthing",
+    "docker-memos"
   ],
   "python": [
     "docker-medikeep",
@@ -40,7 +41,8 @@
     "docker-tinyauth",
     "docker-syncthing",
     "docker-ente",
-    "docker-radarr"
+    "docker-radarr",
+    "docker-memos"
   ],
   "alpine": [
     "docker-vernemq",
