@@ -25,7 +25,8 @@
   "distroless:ds": [
     "docker-php",
     "docker-joplin",
-    "docker-util"
+    "docker-util",
+    "docker-radarr"
   ],
   "distroless:localhealth": [
     "docker-qbittorrent",
@@ -38,16 +39,21 @@
     "docker-joplin",
     "docker-tinyauth",
     "docker-syncthing",
-    "docker-ente"
+    "docker-ente",
+    "docker-radarr"
   ],
   "alpine": [
     "docker-vernemq",
     "docker-python",
-    "docker-netbox"
+    "docker-netbox",
+    "docker-radarr"
   ],
   "distroless:tini": [
     "docker-php-fpm",
     "docker-joplin",
     "docker-alpine"
+  ],
+  "dotnet:10": [
+    "docker-radarr"
   ]
 }
