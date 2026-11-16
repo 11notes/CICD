@@ -14,7 +14,8 @@
     "docker-tinyauth",
     "docker-syncthing",
     "docker-memos",
-    "docker-lego"
+    "docker-lego",
+    "docker-beszel"
   ],
   "python": [
     "docker-medikeep",
@@ -43,7 +44,8 @@
     "docker-syncthing",
     "docker-ente",
     "docker-radarr",
-    "docker-memos"
+    "docker-memos",
+    "docker-beszel"
   ],
   "alpine": [
     "docker-vernemq",
