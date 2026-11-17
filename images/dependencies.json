@@ -15,7 +15,8 @@
     "docker-syncthing",
     "docker-memos",
     "docker-lego",
-    "docker-beszel"
+    "docker-beszel",
+    "docker-ilo-metrics"
   ],
   "python": [
     "docker-medikeep",
@@ -47,7 +48,8 @@
     "docker-radarr",
     "docker-memos",
     "docker-beszel",
-    "docker-prowlarr"
+    "docker-prowlarr",
+    "docker-ilo-metrics"
   ],
   "alpine": [
     "docker-vernemq",
