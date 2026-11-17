@@ -29,7 +29,8 @@
     "docker-php",
     "docker-joplin",
     "docker-util",
-    "docker-radarr"
+    "docker-radarr",
+    "docker-prowlarr"
   ],
   "distroless:localhealth": [
     "docker-qbittorrent",
@@ -45,13 +46,15 @@
     "docker-ente",
     "docker-radarr",
     "docker-memos",
-    "docker-beszel"
+    "docker-beszel",
+    "docker-prowlarr"
   ],
   "alpine": [
     "docker-vernemq",
     "docker-python",
     "docker-netbox",
-    "docker-radarr"
+    "docker-radarr",
+    "docker-prowlarr"
   ],
   "distroless:tini": [
     "docker-php-fpm",
@@ -59,6 +62,7 @@
     "docker-alpine"
   ],
   "dotnet:10": [
-    "docker-radarr"
+    "docker-radarr",
+    "docker-prowlarr"
   ]
 }
