@@ -49,7 +49,8 @@
     "docker-memos",
     "docker-beszel",
     "docker-prowlarr",
-    "docker-ilo-metrics"
+    "docker-ilo-metrics",
+    "docker-sabnzbd"
   ],
   "alpine": [
     "docker-vernemq",
