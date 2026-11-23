@@ -18,7 +18,8 @@
     "docker-beszel",
     "docker-ilo-metrics",
     "docker-redis",
-    "docker-loki"
+    "docker-loki",
+    "docker-radicale"
   ],
   "python": [
     "docker-medikeep",
@@ -53,7 +54,8 @@
     "docker-prowlarr",
     "docker-ilo-metrics",
     "docker-sabnzbd",
-    "docker-loki"
+    "docker-loki",
+    "docker-radicale"
   ],
   "alpine": [
     "docker-vernemq",
