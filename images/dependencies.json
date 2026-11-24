@@ -19,7 +19,8 @@
     "docker-ilo-metrics",
     "docker-redis",
     "docker-loki",
-    "docker-radicale"
+    "docker-radicale",
+    "docker-opentelemetry-collector"
   ],
   "python": [
     "docker-medikeep",
@@ -55,7 +56,8 @@
     "docker-ilo-metrics",
     "docker-sabnzbd",
     "docker-loki",
-    "docker-radicale"
+    "docker-radicale",
+    "docker-opentelemetry-collector"
   ],
   "alpine": [
     "docker-vernemq",
