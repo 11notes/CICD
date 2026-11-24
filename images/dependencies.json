@@ -21,7 +21,8 @@
     "docker-loki",
     "docker-radicale",
     "docker-opentelemetry-collector",
-    "docker-mongodb"
+    "docker-mongodb",
+    "docker-graylog"
   ],
   "python": [
     "docker-medikeep",
@@ -59,7 +60,8 @@
     "docker-sabnzbd",
     "docker-loki",
     "docker-radicale",
-    "docker-opentelemetry-collector"
+    "docker-opentelemetry-collector",
+    "docker-graylog"
   ],
   "alpine": [
     "docker-vernemq",
