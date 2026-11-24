@@ -20,7 +20,8 @@
     "docker-redis",
     "docker-loki",
     "docker-radicale",
-    "docker-opentelemetry-collector"
+    "docker-opentelemetry-collector",
+    "docker-mongodb"
   ],
   "python": [
     "docker-medikeep",
@@ -35,7 +36,8 @@
     "docker-joplin",
     "docker-util",
     "docker-radarr",
-    "docker-prowlarr"
+    "docker-prowlarr",
+    "docker-mongodb"
   ],
   "distroless:localhealth": [
     "docker-qbittorrent",
@@ -69,7 +71,8 @@
   "distroless:tini": [
     "docker-php-fpm",
     "docker-joplin",
-    "docker-alpine"
+    "docker-alpine",
+    "docker-mongodb"
   ],
   "dotnet:10": [
     "docker-radarr",
